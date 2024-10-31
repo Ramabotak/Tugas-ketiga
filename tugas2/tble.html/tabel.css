@@ -1,0 +1,46 @@
+body {
+    background-image: url(demon\ slayer.webp);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+    border: 2px dashed white;
+    border-radius: 15px;
+    background-color: rgba(90, 179, 253, 0.8);
+    color: white;
+    padding: 20px;
+   box-shadow: 5px 5px rgba(255, 255, 255, 0.377);
+    
+}
+
+.container h2{
+text-align: center;
+color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+th {
+    background-color: rgba(0, 0, 139, 0.9);
+}
+.highlight {
+    background-color: pink;
+}
+td {
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+td:hover{
+    background:rgb(252, 94, 94) ;
+
+
+}
